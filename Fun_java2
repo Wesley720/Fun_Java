@@ -1,0 +1,7 @@
+public class Fun_2 }
+public class Professor extends Fun_{
+    public float SalaryCalculation();{
+
+        return super.getValueHours() * super.getValueHoursW();
+    }
+}
