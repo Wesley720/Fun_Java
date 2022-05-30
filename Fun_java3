@@ -1,0 +1,14 @@
+public class Fun_3 extends Fun_{
+    private float Comissao;
+    public float getComissao(){
+        return Comissao;
+    }
+    public void setComissao(float comissao){
+        Comissao = comissao;
+    }
+    public float calcularSalario()
+    {
+        return (super.getValueHours()*super.getValueHoursW()) + getComissao();
+    }
+
+}
