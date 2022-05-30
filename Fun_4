@@ -1,0 +1,15 @@
+//Principal
+public class fun_4 {
+    public static void main(String[] args) {
+        Fun_3 vdr = new Fun_3());
+        Professor profe = new Professor();
+        vdr.setValueHours(220);
+        vdr.setValueHoursW(15);
+        vdr.setComissao(500);
+        System.out.println("Salário do vendedor:R$ " + vdr.SalaryCalculation());
+
+        profe.setValueHours(220);
+        profe.setValueHoursW(15);
+        System.out.println("Salário do professor:R$ " + profe.SalaryCalculation());
+    }
+}
