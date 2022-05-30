@@ -1,0 +1,17 @@
+public abstract class Fun_ {
+    private float ValueHoursW, ValueHours;
+
+    public float getValueHours() {
+        return ValueHours;
+    }
+    public void setValueHours(float ValueHours){
+        this.ValueHours = ValueHours;
+    }
+    public float getValueHoursW() {
+        return ValueHoursW;
+    }
+    public void setValueHoursW(float ValueHoursW ){
+        this.ValueHoursW = ValueHoursW;
+    }
+    public abstract float SalaryCalculation();
+}
